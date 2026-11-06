@@ -1,48 +1,71 @@
 body {
-  background-color: #000000;
-  font-family: impact, sanri;
-  display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
   justify-content: center;
-  padding: 20px; 
+  padding: 20px;
 }
 
 .container {
-  background-color: white;
-  border: 5px solid gold;
+  background: white;
   padding: 24px;
-  /*box-shadow: 0 2px 8px rgba(0,0,0,0,1);*/
-  box-shadow: -8px 8px 16px rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  width: 500px;
-  text-align: center
-  /*height: 320px;*/
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 320px;
 }
 
 label {
   display: block;
   margin-top: 12px;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 input {
-  width:100%;
-  padding:8px;
+  width: 100%;
+  padding: 8px;
   margin-top: 4px;
   box-sizing: border-box;
-  background-color: #F5F5F5;
 }
 
 button {
   margin-top: 16px;
   padding: 10px;
   width: 100%;
-  background-color: #42A5F5;
-  border-radius: 8px;
+  background-color: #2b6cb0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-button:hover {
-  padding: 10px;
-  width: 100%;
-  background-color: #FFEB3B;
-  border-radius: 8px;
+#resultado {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
 }
+
+/* Cores de situação */
+
+.aprovado {
+  color: #2f855a;
+}
+
+.recuperacao {
+  color: #b7791f;
+}
+
+.reprovado {
+  color: #c53030;
+}
+
+.erro{
+  color: #c53030;
+}
+
+
+
+
+
+
+
